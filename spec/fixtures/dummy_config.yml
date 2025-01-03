@@ -1,0 +1,4 @@
+rules:
+  - name: every minutes
+    schedule_expression: 0/1 * * * *
+    job_class: MinuteJob
