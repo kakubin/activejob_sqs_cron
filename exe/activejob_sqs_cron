@@ -1,0 +1,8 @@
+#!/usr/local/env ruby
+# frozen_string_literal: true
+
+require "rails"
+require File.expand_path("config/environment.rb")
+
+cli = ActivejobSqsCron::CLI.new
+cli.run(*ARGV)
